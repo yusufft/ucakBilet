@@ -1,0 +1,180 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Calibri;
+}
+
+.baslik {
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    border-bottom: solid 10px rgb(209, 0, 0);
+}
+
+#admin_btn {
+    position: absolute;
+    margin-left: 90%;
+    margin-top: -55px;
+    font-family: Calibri;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+
+#admin_btn:hover{
+    border-bottom: 5px solid rgb(255, 0, 0);
+    transition: all 0.5s ;
+}
+
+#user_btn {
+    position: absolute;
+    margin-left: 81%;
+    margin-top: -55px;
+    font-family: Calibri;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+#user_btn:hover {
+    border-bottom: 5px solid rgb(4, 0, 255);
+    transition: all 0.5s ;
+}
+
+#kayit_btn {
+    position: absolute;
+    margin-left: 72%;
+    margin-top: -55px;
+    font-family: Calibri;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border:none;    
+    cursor: pointer;
+}
+
+#kayit_btn:hover {
+    border-bottom: 5px solid rgb(255, 0, 0);
+    transition: all 0.5s ;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.a_baslik {
+    position: absolute;
+    background-color: rgb(209, 3, 3);
+    color: white;
+    margin-left: 410px;
+    margin-top: 18px;
+    width: 35%;
+    border-radius: 50px;
+}
+
+.a_baslik p {
+    margin-left: 100px;
+}
+
+.resim {
+    margin-top: 10px;
+}
+
+.cizgi {
+    border-bottom: 10px solid rgb(207, 0, 0);
+    margin-top: -4px;
+}
+
+.bilet {
+    position: absolute;
+    margin-top: -415px;
+    margin-left: 420px;
+    border-radius: 20px;
+    box-shadow: rgb(75, 75, 75) 0px 0px 10px 5px;
+    background-color: rgba(108, 152, 165, 0.719);
+    width: 450px;
+    height: 400px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.alt {
+    margin-left: 400px;
+    margin-top: 35px;
+}
+
+.mail {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.pw1 {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.btn {
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 170px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(207, 0, 0);
+    color: white;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    transition: all 0.5s ;
+}
+
+.jet {
+    margin-left: 160px;
+    margin-top: 15px;
+}
+
+.çiz {
+    border-radius: 50px;
+    border: solid black;
+}
+
+.aç {
+    margin-left: 180px;
+}
+
+.email {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.password {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -63px;
+    margin-top: 90px;
+}

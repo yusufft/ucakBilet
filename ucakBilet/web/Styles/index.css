@@ -1,0 +1,124 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Calibri;
+}
+
+.baslik {
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    border-bottom: solid 10px rgb(209, 0, 0);
+}
+
+#admin_btn {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 65px;
+    font-family: Calibri;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    box-shadow: rgb(66, 66, 66) 0px 0px 10px 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#admin_btn:hover{
+    border-bottom: 5px solid rgb(255, 0, 0);
+    box-shadow: rgb(255, 0, 0) 0px 0px 10px 5px;
+    transition: all 0.5s ;
+}
+
+#user_btn {
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 65px;
+    font-family: Calibri;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    box-shadow: rgb(66, 66, 66) 0px 0px 10px 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#user_btn:hover {
+    border-bottom: 5px solid rgb(255, 0, 0);
+    box-shadow: rgb(255, 0, 0) 0px 0px 10px 5px;
+    transition: all 0.5s ;
+}
+
+#kayit_btn {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 65px;
+    font-family: Calibri;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    box-shadow: rgb(66, 66, 66) 0px 0px 10px 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#kayit_btn:hover {
+    border-bottom: 5px solid rgb(255, 0, 0);
+    box-shadow: rgb(255, 0, 0) 0px 0px 10px 5px;
+    transition: all 0.5s ;
+}
+.logo {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.logo1 {
+    margin-left: 830px;
+    margin-top: 15px;
+}
+
+.a_baslik {
+    position: absolute;
+    background-color: rgb(209, 3, 3);
+    color: white;
+    margin-left: 450px;
+    margin-top: 18px;
+    width: 35%;
+    border-radius: 50px;
+}
+
+.a_baslik p {
+    margin-left: 100px;
+}
+
+.resim {
+    margin-top: 10px;
+}
+
+.cizgi {
+    border-bottom: 10px solid rgb(207, 0, 0);
+    margin-top: -4px;
+}
+
+.oturum {
+    position: absolute;
+    margin-top: -325px;
+    margin-left: 220px;
+    border-radius: 20px;
+    background-color: rgba(108, 152, 165, 0.452);
+    width: 920px;
+    height: 200px;
+    box-shadow: rgb(75, 75, 75) 0px 0px 10px 5px;
+    
+}
+
+.alt {
+    margin-left: 400px;
+    margin-top: 35px;
+}
